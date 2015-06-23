@@ -36,6 +36,7 @@ function! Tabline()
   endfor
 
   let s .= '%#TabLineFill#'
+  let s .= '%=%999XX'
   return s
 endfunction
 set tabline=%!Tabline()
