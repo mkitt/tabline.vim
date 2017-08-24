@@ -36,6 +36,9 @@ function! Tabline()
   endfor
 
   let s .= '%#TabLineFill#'
+  if (exists("g:tablineclosebutton"))
+    let s .= '%=%999XX'
+  endif
   return s
 endfunction
 set tabline=%!Tabline()

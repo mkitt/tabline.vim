@@ -36,3 +36,7 @@ hi TabLineFill  ctermfg=Black  ctermbg=Green     cterm=NONE
 hi TabLineSel   ctermfg=White  ctermbg=DarkBlue  cterm=NONE
 ```
 
+To enable the close button in the upper right corner, add the following to your `~/.vimrc`
+```
+let g:tablineclosebutton=1
+```
