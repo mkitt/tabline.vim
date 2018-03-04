@@ -1,4 +1,6 @@
 
+<img src="https://mkitt.net/apple-touch-icon.png" width="80px" height="80px" />
+
 # tabline.vim
 
 Configure tab labels within Terminal Vim with a very succinct output.
@@ -40,3 +42,9 @@ To enable the close button in the upper right corner, add the following to your 
 ```
 let g:tablineclosebutton=1
 ```
+
+
+[mkitt.net][mkitt.net] | [github/mkitt][github]
+
+[github]: https://github.com/mkitt "@mkitt"
+[mkitt.net]: https://mkitt.net "🏔"
